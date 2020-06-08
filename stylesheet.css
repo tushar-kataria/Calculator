@@ -1,0 +1,70 @@
+body 
+{
+    background: url('zbg.jpg');
+}
+
+h1
+{
+   color: white;
+}
+
+h2
+{
+    color: peru;
+}
+
+.container
+{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.calculator
+{
+    display: inline-block;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f9b0f, #204924);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f9b0f, #204924); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 23px;
+    border-radius: 40px;
+}
+
+table
+{
+    margin: auto;
+}
+
+input
+{
+    font-size: 30px;
+    border: 4px solid gray;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+button
+{
+    margin-top: 5px;
+    font-size: 40px;
+    background-color: #000000;
+    color: white;
+    width: 92px;
+    height: 55px;
+    border-radius: 20px;
+}
+span
+{
+    background:transparent;
+    color: peachpuff;
+    border: 2px solid white;
+    width: 100px;
+    text-align: center;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+span:hover
+{
+    background-color: gray;
+}
+    
